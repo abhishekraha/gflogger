@@ -1,7 +1,7 @@
 dependencies {
-    compile project(':core')
-    compile group: 'org.slf4j', name: 'slf4j-api', version: '1.7.13'
+    implementation(project(':core'))
+    implementation(group: 'org.slf4j', name: 'slf4j-api', version: '1.7.13')
 
-    testCompile project(':core').sourceSets.test.output
-    testCompile group: 'junit', name: 'junit', version: '4.+'
+    testImplementation(project(':core').sourceSets.test.output)
+    testImplementation(group: 'junit', name: 'junit', version: '4.+')
 }

@@ -24,3 +24,7 @@ fabric.properties
 
 # logs
 altest/logs
+
+# Gradle
+.gradle
+build
